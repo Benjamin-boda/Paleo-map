@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render dino search dropdowns correctly 1`] = `
+<div>
+  <div
+    className="dropdown-divider"
+    role="separator"
+  />
+  <li
+    className="header__dropdown"
+    onClick={[Function]}
+  >
+    Close
+  </li>
+</div>
+`;

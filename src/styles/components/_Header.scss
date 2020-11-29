@@ -1,0 +1,93 @@
+.header {
+    background: $dark-grey;
+}
+
+.header__content {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    padding: $s-size 0;
+    margin: 0 auto;
+    max-width: 110rem;
+
+    @media (min-width: $desktop-breakpoint) {
+        justify-content: space-between;
+        margin: 0 $m-size;
+    }
+
+    @media (min-width: $desktop-breakpoint-large) {
+        margin: 0 auto;
+    }
+}
+
+.header__logo {
+    filter: invert(100%) sepia(11%) saturate(0%) hue-rotate(83deg) brightness(105%) contrast(101%);
+    height: 3rem;
+    margin-right: $m-size;
+    width: 3rem;
+
+    @media (min-width: $desktop-breakpoint) {
+        height: 4rem;
+        margin-right: 0;
+        width: 4rem;
+    }
+}
+
+.header__text {
+    color: white;
+    font-family: "OpenSansExtraBold";
+    font-size: $font-size-small;
+    margin-right: $m-size;
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: $font-size-medium;
+        margin-right: 0;
+    }
+}
+
+.header__input {
+    width: 50%;
+
+    @media (min-width: $desktop-breakpoint) {
+        width: 40%;
+    }
+}
+
+.dropdown {
+    position: absolute;
+}
+
+.header__dropdown__content {
+    background: white;
+    border-radius: 0 0 0 1rem;
+    padding: 0 $m-size $m-size $m-size;
+    position: relative;
+    
+
+    @media (min-width: $desktop-breakpoint) {
+        left: 13rem;
+        top: 3.1rem;
+    }
+}
+
+.header__dropdown {
+    font-family: "OpenSansRegular";
+    font-size: $font-size-xsmall;
+    list-style-type: none;
+    text-decoration: none;
+
+    @media (min-width: $desktop-breakpoint-large) {
+        font-size: $font-size-small;
+    }
+}
+
+.header__dropdown:hover {
+    cursor: pointer;
+    background: grey;
+}
+
+.InputGroup__Text {
+    background: $light-grey;
+    color: black;
+    font-family: "OpenSansLight";
+}

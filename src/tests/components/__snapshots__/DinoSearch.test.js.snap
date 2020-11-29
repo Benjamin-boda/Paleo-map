@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render dino orders filters correctly 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="header__content"
+  >
+    <img
+      className="header__logo"
+    />
+    <h1
+      className="header__text"
+    >
+      PALEO MAP
+    </h1>
+    <div
+      className="header__input input-group input-group-lg"
+      onChange={[Function]}
+      placeholder="Search a specimen..."
+      type="text"
+      value=""
+    >
+      <div
+        className="input-group-prepend"
+      >
+        <span
+          className="InputGroup__Text input-group-text"
+          id="inputGroup-sizing-lg"
+        >
+          Search a specimen
+        </span>
+      </div>
+      <input
+        aria-describedby="inputGroup-sizing-sm"
+        aria-label="Large"
+        className="form-control"
+      />
+      <div
+        className="dropdown dropdown"
+        onKeyDown={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

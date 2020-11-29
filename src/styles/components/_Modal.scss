@@ -1,0 +1,44 @@
+.modal__image {
+    height: auto;
+    margin: 0 0 $s-size $xl-size;
+    width: 25rem;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: 0 0 $s-size $l-size;
+        width: 40rem;
+    }
+}
+
+.modal__title {
+    font-family: "OpenSansSemiBold";
+    font-size: $font-size-medium;
+    padding: 0 0 0 7rem;
+
+    @media (min-width: $desktop-breakpoint) {
+        padding: 0 0 0 15rem;
+    }
+}
+
+.modal__text {
+    color: black;
+    font-family: "OpenSansRegular";
+    font-size: $font-size-xsmall;
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: $font-size-small;
+    }
+}
+
+.modal__text__bold {
+    font-family: "OpenSansBold";
+    font-size: $font-size-xsmall;
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: $font-size-small;
+    }
+} 
+
+.modal__link {
+    color: $black-grey;
+    font-family: "OpenSansRegular";
+}

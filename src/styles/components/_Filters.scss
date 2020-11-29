@@ -1,0 +1,30 @@
+.filters__background {
+    background: $light-grey;
+    height: 15vh;
+}
+
+.filters {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 110rem;
+}
+
+.filters__select {
+    font-family: "OpenSansRegular";
+    font-size: 1rem;
+    margin: $s-size 0;
+    width: 40%;
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: $font-size-xsmall;
+        margin: $l-size $m-size 0 $m-size;
+        width: 40%;
+    }
+
+    @media (min-width: $desktop-breakpoint-large) {
+        margin: $s-size $m-size;
+        width: 30%;
+    }
+}

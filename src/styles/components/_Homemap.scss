@@ -1,0 +1,11 @@
+.map {
+    border: $black-grey .1rem solid;
+
+    @media (min-width: $desktop-breakpoint) {
+        padding: $xl-size 0;
+    }
+
+    @media (min-width: $desktop-breakpoint-large) {
+        padding: 0;
+    }
+}

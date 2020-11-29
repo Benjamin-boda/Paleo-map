@@ -1,0 +1,12 @@
+.marker {
+    border: solid black .1rem;
+    width: 50%;
+}
+
+.circle {
+    display: block;
+}
+
+.marker__text {
+    z-index: 10;
+}
